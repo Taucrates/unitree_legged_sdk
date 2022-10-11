@@ -51,6 +51,7 @@ void Custom::RobotControl()
     cmd.mode = 0;      // 0:idle, default stand      1:forced stand     2:walk continuously
     cmd.gaitType = 0;
     cmd.speedLevel = 0;
+    cmd.levelFlag = 0;
     cmd.footRaiseHeight = 0;
     cmd.bodyHeight = 0;
     cmd.euler[0]  = 0;
