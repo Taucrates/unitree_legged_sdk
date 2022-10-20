@@ -20,7 +20,7 @@ firmware H0.1.7 >= v0.1.35
 * [LCM](https://lcm-proj.github.io) (version 1.4.0 or higher)
 * [g++](https://gcc.gnu.org/) (version 8.3.0 or higher)
 
-####LCM
+#### LCM
 ```bash
 sudo apt-get install liblcm-dev
 ```
