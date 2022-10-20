@@ -19,21 +19,10 @@ firmware H0.1.7 >= v0.1.35
 * [CMake](http://www.cmake.org) (version 2.8.3 or higher)
 * [LCM](https://lcm-proj.github.io) (version 1.4.0 or higher)
 * [g++](https://gcc.gnu.org/) (version 8.3.0 or higher)
-```bash
-cd lcm-x.x.x
-mkdir build
-cd build
-cmake ../
-make
-sudo make install
-```
 
-### Build
+####LCM
 ```bash
-mkdir build
-cd build
-cmake ../
-make
+sudo apt-get install liblcm-dev
 ```
 
 ### Usage
